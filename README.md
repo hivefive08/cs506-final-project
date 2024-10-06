@@ -17,3 +17,10 @@ Confusion matrix to visualize model performance.
 6. Test Plan
 Split the data into training (80%) and testing (20%) sets.
 Train the model on the training set and evaluate its performance on the testing set using accuracy and F1-score as metrics.
+
+
+1. The data will be sourced from a publicly available dataset such as the IMDb movie review dataset on Kaggle. The dataset consists of textual movie reviews along with labels indicating whether the review is positive or negative. The primary feature is the review text, which is categorical data in the form of strings.
+
+2. The data will require preprocessing steps including tokenization, filtering out common words, and handling negations. Then we will need to convert the text into numerical features so that we can then train on those data.
+
+3. The model's performance will be measured using accuracy, precision, recall, and F1-score. We will use a simple logistic regression model as a baseline and aim to surpass an F1-score of 80% on the test set.
