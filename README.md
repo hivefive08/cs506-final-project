@@ -24,3 +24,38 @@ Train the model on the training set and evaluate its performance on the testing 
 2. The data will require preprocessing steps including tokenization, filtering out common words, and handling negations. Then we will need to convert the text into numerical features so that we can then train on those data.
 
 3. The model's performance will be measured using accuracy, precision, recall, and F1-score. We will use a simple logistic regression model as a baseline and aim to surpass an F1-score of 80% on the test set.
+
+---
+
+## **Midterm Report**
+
+### 1. Preliminary Visualizations
+- **Distribution of Review Lengths**: Analyzed to understand the spread and variance in review lengths.
+- **Word Clouds**: Created for positive and negative reviews to visualize commonly used words.
+- **Confusion Matrix**: Used to show the classification results of the model.
+
+### 2. Detailed Description of Data Processing
+- **Cleaning**: Removed HTML tags, special characters, and numbers, and converted text to lowercase.
+- **Tokenization**: Split the text into individual words for further processing.
+- **Stop Words Removal**: Filtered out common words that do not contribute significantly to sentiment analysis.
+- **Lemmatization**: Reduced words to their base forms to standardize them.
+- **Feature Extraction**: Applied TF-IDF vectorization to transform text data into numerical features.
+
+### 3. Data Modeling Methods
+- **Model Used**: Logistic regression was chosen for the baseline model.
+- **Data Split**: The dataset was split into an 80% training set and a 20% testing set.
+- **Training and Evaluation**: The logistic regression model was trained on the TF-IDF matrix and evaluated using accuracy, precision, recall, and F1-score.
+
+### 4. Preliminary Results
+- **Metrics**:
+  - **Accuracy**: 0.88
+  - **Precision**: 0.88
+  - **Recall**: 0.90
+  - **F1-score**: 0.89
+- **Confusion Matrix**:
+
+### 5. Code and Notebooks
+- **data_preprocessing.ipynb**: Steps for cleaning and processing the data.
+- **model_training.ipynb**: Code for training and evaluating the logistic regression model.
+- **visualizations.ipynb**: Contains visualizations and analyses of the data.
+
