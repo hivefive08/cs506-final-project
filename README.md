@@ -18,6 +18,7 @@ Confusion matrix to visualize model performance.
 Split the data into training (80%) and testing (20%) sets.
 Train the model on the training set and evaluate its performance on the testing set using accuracy and F1-score as metrics.
 
+---
 
 1. The data will be sourced from a publicly available dataset such as the IMDb movie review dataset on Kaggle. The dataset consists of textual movie reviews along with labels indicating whether the review is positive or negative. The primary feature is the review text, which is categorical data in the form of strings.
 
