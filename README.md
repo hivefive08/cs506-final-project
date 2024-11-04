@@ -29,6 +29,7 @@ Train the model on the training set and evaluate its performance on the testing 
 ---
 
 ## **Midterm Report**
+https://youtu.be/m4rvpP1I6Lk
 
 ### 1. Preliminary Visualizations
 - **Distribution of Review Lengths**: Analyzed to understand the spread and variance in review lengths.
