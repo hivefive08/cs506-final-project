@@ -6,7 +6,11 @@ install:
 run:
 	python app.py
 
+# Run Jupyter Notebook
+notebook:
+	jupyter notebook
+
 # Clean up unnecessary files and folders
 clean:
 	rm -rf __pycache__
-
+	rm -rf .ipynb_checkpoints
