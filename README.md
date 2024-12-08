@@ -1,6 +1,6 @@
 # cs506-final-project
 
-## **FinaL Report**
+## **Final Report**
 
 ### 1. How to Build and Run the Code
 - **Clone Repository**
